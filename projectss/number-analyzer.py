@@ -1,0 +1,11 @@
+print("Enter 5 numbers.")
+num1 = int(input("First number: "))
+num2 = int(input("Second number: "))
+num3 = int(input("Third number: "))
+num4 = int(input("Fourth number: "))
+num5 = int(input("Fifth number: "))
+
+print(sum([num1, num2, num3, num4, num5]))
+print(max(num1, num2, num3, num4, num5))
+print(min(num1, num2, num3, num4, num5))
+print(sorted(num1, num2, num3, num4, num5))
