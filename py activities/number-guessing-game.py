@@ -1,11 +1,3 @@
-# number guessing game
-# random number between 1 and 50
-# user has 5 attempts to guess the number
-# if the user guesses the number, the game ends
-# if the user doesn't guess the number, the game ends
-# if the user guesses the number too high
-# if the user guesses the number too low
-
 import random
 
 number = random.randint(1, 50)
